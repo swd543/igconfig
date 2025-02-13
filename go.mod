@@ -1,10 +1,11 @@
 module github.com/worldline-go/igconfig
 
 go 1.21
+toolchain go1.23.6
 
 require (
 	github.com/BurntSushi/toml v1.4.0
-	github.com/hashicorp/consul/api v1.31.0
+	github.com/hashicorp/consul/api v1.31.1
 	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/vault/api v1.16.0
 	github.com/rs/zerolog v1.33.0
@@ -41,7 +42,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/ryanuber/go-glob v1.0.0 // indirect
 	golang.org/x/crypto v0.32.0 // indirect
-	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63 // indirect
+	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
 	golang.org/x/net v0.34.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
