@@ -1,10 +1,10 @@
 module github.com/worldline-go/igconfig
 
-go 1.25.0
+go 1.25.3
 
 require (
 	github.com/BurntSushi/toml v1.5.0
-	github.com/hashicorp/consul/api v1.32.4
+	github.com/hashicorp/consul/api v1.33.0
 	github.com/hashicorp/go-hclog v1.6.3
 	github.com/hashicorp/vault/api v1.22.0
 	github.com/rs/zerolog v1.34.0
